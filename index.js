@@ -9,7 +9,7 @@ previews.forEach((preview) => {
         modal.classList.add('open')
 
         const fullImg = preview.getAttribute('data-full')
-        modalImg.src = `/full/${fullImg}`
+        modalImg.src = `full/${fullImg}`
 
         const altText = preview.alt
         description.textContent = altText
